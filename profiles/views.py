@@ -3,7 +3,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 import speech_recognition as sr
 from pydub import AudioSegment
-from serializer import AudioSerializer
+from .serializer import AudioSerializer
 
 @api_view(['POST'])
 def conversionView(request):

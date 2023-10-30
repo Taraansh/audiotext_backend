@@ -1,4 +1,4 @@
-from models import Audio
+from .models import Audio
 from rest_framework import serializers
 
 class AudioSerializer(serializers.ModelSerializer):
